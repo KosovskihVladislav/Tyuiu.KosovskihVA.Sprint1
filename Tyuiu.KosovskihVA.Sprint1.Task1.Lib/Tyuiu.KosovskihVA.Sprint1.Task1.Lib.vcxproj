@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1a36e977-7ec9-497d-8472-77938b97e07e}</ProjectGuid>
-    <RootNamespace>TyuiuKosovskihVASprint1Task0Lib</RootNamespace>
+    <ProjectGuid>{f9c52bb8-7284-4de3-ab6f-5e04218eb9ac}</ProjectGuid>
+    <RootNamespace>TyuiuKosovskihVASprint1Task1Lib</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -161,11 +161,11 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Tyuiu.KosovskihVA.Sprint1.Task0.Lib.cpp" />
+    <ClCompile Include="Tyuiu.KosovskihVA.Sprint1.Task1.Lib.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.KosovskihVA.Sprint1.Task0.Test\Tyuiu.KosovskihVA.Sprint1.Task0.Test.vcxproj">
-      <Project>{7f9f5cd9-162d-403d-8a6b-e3fa4fdb5e00}</Project>
+    <ProjectReference Include="..\Tyuiu.KosovskihVA.Sprint1.Task1.Test\Tyuiu.KosovskihVA.Sprint1.Task1.Test.vcxproj">
+      <Project>{c84937a4-e896-4ecc-8476-b1bc36fd4c3b}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
