@@ -37,7 +37,7 @@ class ISprint0Task4// не меняется
 	//Если Вы решаете один вариант, то в названии консольного приложения после Task0.(V0) не указываете. 
 {
 public:
-	virtual int Calculate(int a, int b, int c, int d) = 0; // результат -0, функция любая
+	virtual int Calculate(int a, int b, int c) = 0; // результат -0, функция любая
 };
 //
 class ISprint0Task5// не меняется
@@ -53,7 +53,7 @@ class ISprint0Task6// не меняется
 	//Если Вы решаете один вариант, то в названии консольного приложения после Task0.(V0) не указываете. 
 {
 public:
-	virtual int Calculate(float a, int b) = 0; // результат -0, функция любая
+	virtual int Zuul(int a, int b) = 0; // результат -0, функция любая
 };
 //
 class ISprint0Task7// не меняется
@@ -99,5 +99,31 @@ class ISprint1Task2// не меняется
 public:
 	virtual int LogicLong(int a) = 0; // результат -0, функция любая
 };
-
+class ISprint1Task3 // не меняется
+{
+public:
+	virtual int Uslovie(int a) = 0; // результат -0, функция любая
+};
+class ISprint1Task4 // не меняется
+{
+public:
+	virtual float Vibor(float x) = 0; // результат -0, функция любая
+};
+class ISprint1Task5 // не меняется
+{
+public:
+	virtual int Uslovie(int a) = 0; // результат -0, функция любая
+};
+class ISprint1Task6 // не меняется
+	//Коэффициенты а, b, c вводятся с клавиатуры.
+{
+public:
+	virtual float Vvod(float x) = 0; // результат -0, функция любая
+};
+class ISprint1Task7 // не меняется
+	//Коэффициенты а, b, c вводятся с клавиатуры.
+{
+public:
+	virtual int Vvod(int x) = 0; // результат -0, функция любая
+};
 
